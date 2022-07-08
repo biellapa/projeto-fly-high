@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0 ;
+    
 }
 body{
     text-align: center;
@@ -19,11 +20,10 @@ h1{
 width: 13vh;
 }
 .pum{
-    justify-content: center;
+
     text-align: center;
     margin-left: 33.5vw;
-    margin-top: 25px;
-    
+
 }
 .carousel-inner{
     margin-left: 25vw;
@@ -50,3 +50,43 @@ width: 13vh;
     min-width: 10px;
     padding: 10px;
 }
+
+aviao{
+    max-width: 50%;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.664);
+    box-shadow: 0px 3px 10px #464646;
+}
+.nav-bar{
+    display: flex;
+    justify-content:space-between ;
+    padding: 1.5rem 6rem;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    justify-content:center ;
+    list-style: none;
+}
+.nav-itens{
+ margin: 0 15px;   
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+.login-button button{
+    border: none;
+    background-color: rgb(18, 104, 175);
+    padding: 10px 15px;
+    border: radius 5px; ;
+}
+
