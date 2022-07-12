@@ -9,6 +9,7 @@ body{
     background-image: linear-gradient(rgb(119, 33, 33), rgb(255, 81, 0));
     background-repeat: no-repeat;
     min-height: 100vh;
+    overflow-x:hidden;
 }
 h5{
     color: black;
@@ -29,6 +30,9 @@ width: 13vh;
     margin-left: 25vw;
     justify-content: center;
     max-width: 50%;
+}
+.aviao{
+    max-width: 1000000px;
 }
 .sla{
     background-color: rgba(128, 128, 128, 0.603);
@@ -51,9 +55,6 @@ width: 13vh;
     padding: 10px;
 }
 
-aviao{
-    max-width: 50%;
-}
 
 header{
     background-color: rgba(0, 0, 0, 0.664);
